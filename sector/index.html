@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+  .sector {
+    position: absolute;
+    left: 0;
+    top:0;
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+    border-top: 100px red solid;
+    border-left: 100px transparent solid;
+    border-bottom: 100px transparent solid;
+    border-right: 100px green solid;
+    transform: rotate(60deg);
+  }
+  .square {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    position: absolute;
+    left: 0;
+    top:0;
+    opacity: 0.5;
+    transform: rotate(30deg);
+    transform-origin: 100px 100px;
+  }
+</style>
+<body>
+
+<div class="sector"></div>
+<div class="square"></div>
+
+</body>
+</html>
